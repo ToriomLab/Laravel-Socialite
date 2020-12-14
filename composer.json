@@ -1,5 +1,5 @@
 {
-    "name": "laravel/socialite",
+    "name": "toriomlab/socialite",
     "description": "Laravel wrapper around OAuth 1 & OAuth 2 libraries.",
     "keywords": ["oauth", "laravel"],
     "license": "MIT",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Socialite\\": "src/"
+            "ToriomLab\\Socialite\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laravel\\Socialite\\Tests\\": "tests/"
+            "ToriomLab\\Socialite\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -44,10 +44,10 @@
         },
         "laravel": {
             "providers": [
-                "Laravel\\Socialite\\SocialiteServiceProvider"
+                "ToriomLab\\Socialite\\SocialiteServiceProvider"
             ],
             "aliases": {
-                "Socialite": "Laravel\\Socialite\\Facades\\Socialite"
+                "Socialite": "ToriomLab\\Socialite\\Facades\\Socialite"
             }
         }
     },
