@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite\One;
+namespace ToriomLab\Socialite\One;
 
 use InvalidArgumentException;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite;
+namespace ToriomLab\Socialite;
 
 use ArrayAccess;
 use Laravel\Socialite\Contracts\User;

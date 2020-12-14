@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Socialite\One;
+namespace ToriomLab\Socialite\One;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use InvalidArgumentException;
-use Laravel\Socialite\Contracts\Provider as ProviderContract;
+use ToriomLab\Socialite\Contracts\Provider as ProviderContract;
 use League\OAuth1\Client\Credentials\TokenCredentials;
 use League\OAuth1\Client\Server\Server;
 

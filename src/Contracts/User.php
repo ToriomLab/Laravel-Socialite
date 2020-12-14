@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite\Contracts;
+namespace ToriomLab\Socialite\Contracts;
 
 interface User
 {

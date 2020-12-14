@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite;
+namespace ToriomLab\Socialite;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Manager;

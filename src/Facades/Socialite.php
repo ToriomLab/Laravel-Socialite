@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\Socialite\Facades;
+namespace ToriomLab\Socialite\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Laravel\Socialite\Contracts\Factory;
+use ToriomLab\Socialite\Contracts\Factory;
 
 /**
  * @method static \Laravel\Socialite\Contracts\Provider driver(string $driver = null)

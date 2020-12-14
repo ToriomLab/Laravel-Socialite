@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite\Two;
+namespace ToriomLab\Socialite\Two;
 
 use GuzzleHttp\Client;
 use Illuminate\Http\RedirectResponse;

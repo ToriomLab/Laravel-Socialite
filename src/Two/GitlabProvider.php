@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite\Two;
+namespace ToriomLab\Socialite\Two;
 
 class GitlabProvider extends AbstractProvider implements ProviderInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Socialite;
+namespace ToriomLab\Socialite;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Socialite\Contracts\Factory;

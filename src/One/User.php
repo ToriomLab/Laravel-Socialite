@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Socialite\One;
+namespace ToriomLab\Socialite\One;
 
-use Laravel\Socialite\AbstractUser;
+use ToriomLab\Socialite\AbstractUser;
 
 class User extends AbstractUser
 {
