@@ -6,14 +6,14 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Manager;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
-use Laravel\Socialite\One\TwitterProvider;
-use Laravel\Socialite\Two\BitbucketProvider;
-use Laravel\Socialite\Two\FacebookProvider;
-use Laravel\Socialite\Two\GithubProvider;
-use Laravel\Socialite\Two\GitlabProvider;
-use Laravel\Socialite\Two\GoogleProvider;
-use Laravel\Socialite\Two\LinkedInProvider;
-use League\OAuth1\Client\Server\Twitter as TwitterServer;
+use ToriomLab\Socialite\One\TwitterProvider;
+use ToriomLab\Socialite\Two\BitbucketProvider;
+use ToriomLab\Socialite\Two\FacebookProvider;
+use ToriomLab\Socialite\Two\GithubProvider;
+use ToriomLab\Socialite\Two\GitlabProvider;
+use ToriomLab\Socialite\Two\GoogleProvider;
+use ToriomLab\Socialite\Two\LinkedInProvider;
+use ToriomLab\OAuth1\Client\Server\Twitter as TwitterServer;
 
 class SocialiteManager extends Manager implements Contracts\Factory
 {

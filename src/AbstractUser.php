@@ -3,7 +3,7 @@
 namespace ToriomLab\Socialite;
 
 use ArrayAccess;
-use Laravel\Socialite\Contracts\User;
+use ToriomLab\Socialite\Contracts\User;
 
 abstract class AbstractUser implements ArrayAccess, User
 {

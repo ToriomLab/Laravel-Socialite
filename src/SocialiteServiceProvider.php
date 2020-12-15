@@ -3,7 +3,7 @@
 namespace ToriomLab\Socialite;
 
 use Illuminate\Support\ServiceProvider;
-use Laravel\Socialite\Contracts\Factory;
+use ToriomLab\Socialite\Contracts\Factory;
 
 class SocialiteServiceProvider extends ServiceProvider
 {
