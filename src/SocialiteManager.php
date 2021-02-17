@@ -13,7 +13,7 @@ use ToriomLab\Socialite\Two\GithubProvider;
 use ToriomLab\Socialite\Two\GitlabProvider;
 use ToriomLab\Socialite\Two\GoogleProvider;
 use ToriomLab\Socialite\Two\LinkedInProvider;
-use ToriomLab\OAuth1\Client\Server\Twitter as TwitterServer;
+use League\OAuth1\Client\Server\Twitter as TwitterServer;
 
 class SocialiteManager extends Manager implements Contracts\Factory
 {
